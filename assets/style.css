@@ -1,0 +1,45 @@
+body{
+    background-color: crimson;
+}
+.a{
+    color: white;
+    float: right;
+    box-align: center;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+ul{
+    list-style: none;
+    display: block;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    width: 100%;
+ 
+}
+li
+
+.aperçu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.moi{
+    position: relative;
+
+    width: 80%;
+    height: auto;
+}
+
+.det{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
