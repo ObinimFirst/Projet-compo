@@ -43,6 +43,16 @@ a, a:hover{
     letter-spacing: 1px;
     float: left;
 }
+
+.btn {
+    color: white;
+    background-color: #349BDB;
+}
+
+.btn :hover {
+    color: black;
+}
+
 .menu {
     float: right;
 }
@@ -107,6 +117,25 @@ a, a:hover{
 .about article h2{
     text-align: center;
 }
+ul{
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.a{
+    text-align: center;
+}
+
+.b{
+    text-align: right;
+}
+
+p{
+    text-align: center;
+    font-weight: 100;
+}
+
 
 /*portfolio*/
 .portfolio{
