@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mon espace</title>
+  <title>WEB COMPO GHISLAIN KOUADIO</title>
 
   <!--CSS-->
 
@@ -34,7 +34,7 @@
       <img src="./assets/images/moi.jpg" alt="bannière du site">
       <div class="inner-banner">
         <h1>Bienvenue sur mon portfolio</h1>
-        <button class="btn btn=custom">CONTACTEZ MOI!</button>
+        <button class="btn btn=custom"><a href="#Contact">CONTACTEZ MOI!</a></button>
       </div>
     </div>
   </section>
@@ -48,44 +48,48 @@
         <div class="row">
 
             <article class="col-md-4 col-lg-4 col-xs-12">
-              <h2>Etudes</h2> <br>
+              <h2>Etudes</h2>
                 <ul>
                   <li>2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                    <P>Licence Professionnelle option Réseau Télécom & Genie Logiciel</P>
                   </li>
-                  <li class="a">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li >2013-2014
+                    <P>Brevet de Technicien Supérieur (BTS) option Réseau Informatique et Télécommunication</P>
                     </li>
-                  <li class="b">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2011-2012
+                    <P>Baccalauréat série C</P>
                   </li>
                 </ul>
             </article>
             <article class="col-md-4 col-lg-4 col-xs-12">
-              <h2>Expérience</h2> <br>
+              <h2>Expérience</h2>
               <ul>
                   <li>2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                    <p>Agent FrontOffice Digital
+                      Premier support technique en ligne.
+                      Conseil et orientation de la clientèle
+                      Assurer le suivi des requêtes et réclamations clients</p>
                   </li>
-                  <li class="a">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2016-2018
+                    <p>Handling complaint Agent Mobile Money pour le compte de MTN-CI
+                      Support Back-office Chargé du traitement des réclamations client liées au service MTN Mobile Money</p>
                     </li>
-                  <li class="b">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2014 - 2015
+                    <p>Stagiaire helpdesk. Chargé de la gestion et de la maintenance du pack informatique. Déploiement de et implémentation de solution informatique.</p>
                   </li>
                 </ul>
               </article>
             <article class="col-md-4 col-lg-4 col-xs-12">
-              <h2>Hobbies</h2> <br>
+              <h2>Certifications</h2>
               <ul>
-                  <li>2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2019
+                    <P>CERTIFIE MICROSOFT OFFICE EXPERT EXCEL (PIGIER)</P>
                   </li>
-                  <li class="a">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2018
+                    <P>CERTIFIE MICROSOFT OFFICE SPECIALIST (MOS) EXCEL (PIGIER)</P>
                     </li>
-                  <li class="b">2018-2019
-                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi sequi minima possimus dolore quam omnis assumenda. Voluptatem nemo perspiciatis autem voluptate sapiente ipsa asperiores, optio consequatur ipsam cupiditate ullam.</P>
+                  <li>2017
+                    <P>CERTIFIE EN INFOGRAPHIE (CABINET VBEST)</P>
                   </li>
                 </ul>
             </article>
@@ -151,16 +155,34 @@
       
           </article>
       </div>
-      
-    </div>
+
 
   </section>
   <!--End portfolio-->
 
   <!--footer / contact-->
   <footer  class="container-fluid footer">
-    <div class="container">
-
+    <div class="container ">
+        <h2 id="Contact">Contactez-moi!</h2>
+        <hr class="separateur">
+      <div class="row">
+          <form class="formulairecontact" >
+            <div class="controls controls-row">
+              <input id="name" name="name" type="text" class="span3" placeholder="Nom">
+              <input id="email" name="email"type="email" class="span3" placeholder="Adresse Email">
+            </div>
+            <div class="controls">
+              <textarea name="message" id="message" class="span6" placeholder="Votre message" rows="5"></textarea>
+            </div>
+            <div class="controls">
+              <button id="contact-submit" type="submit" class="btn btn-primary input-medium pull-rigth">Envoyer</button>
+            </div>
+          </form>
+        
+      </div>
+      <p>
+        copyright (c) 2019 copyright Holder All Rigth Resrved.
+       </p>
     </div>
 
   </footer>

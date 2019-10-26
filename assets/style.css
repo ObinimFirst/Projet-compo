@@ -11,7 +11,10 @@ body, html{
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+h2{
+    text-align: center;
 }
 
 a, a:hover{
@@ -43,27 +46,27 @@ a, a:hover{
     letter-spacing: 1px;
     float: left;
 }
-
-.btn {
-    color: white;
-    background-color: #349BDB;
-}
-
-.btn :hover {
-    color: black;
-}
-
 .menu {
     float: right;
 }
 
 .menu a{
-    color: white;
+    color: black;
     margin-right: 20px;
 }
 
 .menu a:hover{
     color: rgb(0, 0, 66);
+}
+
+/*bannière*/
+.btn {
+    color:rgb(38, 38, 207);
+    background-color: whitesmoke;
+}
+
+.btn :hover {
+    color: black;
 }
 
 .banner{
@@ -84,8 +87,7 @@ a, a:hover{
     position: absolute;
     top: 50%;
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .inner-banner h1{
@@ -102,7 +104,6 @@ a, a:hover{
 
     color: rgb(0, 0, 66);
 }
-/*bannière*/
 
 /*about*/
 #about{
@@ -110,37 +111,34 @@ a, a:hover{
 }
 
 .about article{
+    text-align: center;
     margin-top: 5%;
     padding-top: 1%;
 }
 
 .about article h2{
+
     text-align: center;
 }
 ul{
     list-style: none;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
-
-.a{
+li{
     text-align: center;
-}
-
-.b{
-    text-align: right;
 }
 
 p{
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 
 /*portfolio*/
 .portfolio{
     background-color: #eeeeee;
-    height:600px;
+    height:auto;
 }
 
 #portfolio{
@@ -152,6 +150,46 @@ p{
     background-color: #349BDB;
 }
 
-
-
 /*contact*/
+
+.footer{
+    height: 500px;
+    background-color: #2C3E50;
+}
+
+.footer p{
+    color: #ffffff;
+    text-align: center;
+}
+
+#Contact{
+   color: #ffffff; 
+   text-align: center;
+}
+
+.formulairecontact{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+input{
+    margin-bottom: 10px;
+}
+
+input[type=email]{
+    border: none;
+    height: 50px;
+    width: 500px;
+}
+
+input[type=text]{
+    border: none;
+    height: 50px;
+    width: 500px;
+}
+textarea{
+   width: 500px;
+   height: 200px;
+   resize: vertical; 
+}
+
